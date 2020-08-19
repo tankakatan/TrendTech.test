@@ -4,7 +4,9 @@ export default function intArrayToCompactString (array) {
 
         let prev, consecutive = 0, result = ''
 
-        for (let int of array) {
+        for (let i = 0; i < array.length; i++) {
+
+            const int = array[i]
 
             if (prev === undefined)
                 result += int
