@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A test app for TrendTech",
   "main": "index.js",
-  "module": "main.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -r esm ./test"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tankakatan/TrendTech.test.git"
@@ -19,9 +19,7 @@
   "homepage": "https://github.com/tankakatan/TrendTech.test#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "esm": "^3.2.25",
     "mocha": "^8.1.1"
-  },
-  "dependencies": {
-    "esm": "^3.2.25"
   }
 }
