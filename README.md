@@ -13,3 +13,7 @@ npm i
 ```shell
 npm test
 ```
+
+## NPM package
+
+[https://www.npmjs.com/package/trendtech.test](https://www.npmjs.com/package/trendtech.test)
